@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 80%;
+    margin: 0.5% 10%;
+    background-color: rgb(168, 168, 168);
+    display: inline-block;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.link {
+    text-align: center;
+    font-size: 50px;
+}
+
+#minha_foto {
+    background-color: aqua;
+    width: 300px;
+    border-radius: 30px;
+}
+
+table th,
+td {
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #333;
+
+    background-color: #333;
+    color: #fff;
+}
+
+#rodape {
+    background-color: rgb(168, 168, 168);
+    display: inline-block;
+    width: 80%;
+    margin: 0.5% 10%;
+    border-radius: 10px;
+    padding: 1%;
+    font-size: large;
+}
+
+h2 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(129, 41, 41);
+}
+
+.texto {
+    background-color: rgb(168, 168, 168);
+    display: inline-block;
+    width: 80%;
+    margin: 0.5% 10%;
+    border-radius: 10px;
+    padding: 1%;
+    line-height: 30px;
+    margin-top: 5px;
+}
+
+.lado-esquerdo {
+    display: inline-block;
+    padding: 1px 10px;
+    border: 2px solid red; 
+}
+
+.lado-direito {
+    display: inline-block;
+    padding: 1px 10px;
+
+
+
+section{
+        margin: 1% 10%;
+        width: 80%;
+        padding: auto;
+        margin-top: 200px;
+        border: 2px solid red; 
+
+
+    }

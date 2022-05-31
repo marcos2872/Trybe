@@ -1,0 +1,33 @@
+* {
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+
+#add {
+  text-align: center;
+
+}
+
+#lista-tarefas {
+  text-align: center;
+  list-style-position: inside;
+
+}
+
+.libgcolor {
+  background-color: gray;
+  padding: 5px;
+
+}
+
+.completed {
+  text-decoration: line-through solid black;
+
+}
+
+/* #apaga-tudo {
+  text-align: center;
+} */

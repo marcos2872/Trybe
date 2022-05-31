@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css" />
+  <script src="bootstrap-5.1.3-dist/jquery-3.6.0.min.js"></script>
+  <script src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>Formulário</h1>
+    <form action="" method="post" id="form">
+      <section class="form-group section">
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">Nome</span>
+          <input type="text" class="form-control" placeholder="Full Name" aria-label="Username"
+            aria-describedby="basic-addon1" required minlength="10" maxlength="40" id="nomeC" />
+        </div>
+
+        <div class="input-group mb-3">
+          <input type="email" class="form-control" placeholder="E-mail" aria-label="Recipient's username"
+            aria-describedby="basic-addon2" required minlength="10" maxlength="50" id="e-mail" />
+          <span class="input-group-text" id="basic-addon2">@example.com</span>
+        </div>
+      </section>
+      <fieldset class="form-group section form-check" id="viagemLocal">
+        <legend>Destino Preferido</legend>
+        <label for="cidade" class="form-check-label">
+          <input type="radio" name="opcoes" class="local" value="cidade" id="cidade" class="form-check-input" />Cidade
+        </label>
+
+        <label for="campo" class="form-check-label">
+          <input type="radio" name="opcoes" class="local" value="campo" id="campo" class="form-check-input" />Campo
+        </label>
+
+        <label for="praia" class="form-check-label">
+          <input type="radio" name="opcoes" class="local" value="praia" id="praia" class="form-check-input" />Praia
+        </label>
+
+        <label for="montanhas" class="form-check-label">
+          <input type="radio" name="opcoes" class="local" value="montanha" id="montanhas"
+            class="form-check-input" />Montanhas
+        </label>
+
+      </fieldset>
+      <section class="form-group section">
+        <label for="data">
+          <h6>Data PreferidaS</h6>
+          <input type="date" name="" id="data" />
+        </label>
+      </section>
+      <fieldset class="form-group section">
+        <legend>
+          Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso
+          TrybeTrip?
+        </legend>
+        <div class="input-group">
+          <span class="input-group-text">Digite sou texto</span>
+          <textarea class="form-control" aria-label="With textarea" id="texto" cols="50" rows="10" minlength="10"
+            maxlength="500" placeholder="Limite de 500 caracteres" required></textarea>
+        </div>
+      </fieldset>
+      <section class="form-group section">
+        <label for="ofertas" class="form-check-label">
+          <input type="checkbox" name="" id="ofertas" class="form-check-input" />Gostaria de receber outras incríveis
+          oportunidades oferecidas pela
+          Trybe?
+        </label>
+        <br />
+        <label for="condicao" class="form-check-label">
+          <input type="checkbox" name="" id="condicao" class="form-check-input" />Concordo que imagens das minhas férias
+          poderão ser usadas na
+          divulgação de concursos futuros.
+        </label>
+      </section>
+      <label for="" id="botaoSalva">
+        <button class="btn btn-primary" type="submit" id="enviar">
+          Enviar
+        </button>
+        <button type="reset" class="btn btn-danger" id="limpar">
+          Limpar Formulário
+        </button>
+      </label>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

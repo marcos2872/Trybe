@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Formulário</h1>
+    <form action="" method="post">
+      <fieldset>
+        <label for="nomeC"
+          >Nome:
+          <input
+            type="text"
+            required
+            minlength="10"
+            maxlength="40"
+            id="nomeC"
+          />
+        </label>
+        <br />
+        <br />
+        <label for="e-mail"
+          >E-mail
+          <input
+            type="email"
+            required
+            minlength="10"
+            maxlength="50"
+            id="e-mail"
+          />
+        </label>
+      </fieldset>
+      <fieldset>
+        <h4>Destino Preferido</h4>
+        <fieldset id="viagemLocal">
+          <label for="cidade">
+            <input
+              type="radio"
+              name="opcoes"
+              class="local"
+              value="cidade"
+              id="cidade"
+            />Cidade
+          </label>
+          <label for="campo">
+            <input
+              type="radio"
+              name="opcoes"
+              class="local"
+              value="campo"
+              id="campo"
+            />Campo
+          </label>
+          <label for="praia">
+            <input
+              type="radio"
+              name="opcoes"
+              class="local"
+              value="praia"
+              id="praia"
+            />Praia
+          </label>
+          <label for="montanhas">
+            <input
+              type="radio"
+              name="opcoes"
+              class="local"
+              value="montanha"
+              id="montanhas"
+            />Montanhas
+          </label>
+        </fieldset>
+
+        <label for="data">
+          <h6>Data PreferidaS</h6>
+          <input type="date" name="" id="data" />
+        </label>
+      </fieldset>
+      <fieldset>
+        <h4>
+          Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso
+          TrybeTrip?
+        </h4>
+        <textarea
+          name=""
+          id="texto"
+          cols="30"
+          rows="10"
+          maxlength="500"
+          required
+        >
+Limite de 500 caracteres</textarea
+        >
+      </fieldset>
+      <fieldset>
+        <label for="ofertas">
+          <input type="checkbox" name="" id="ofertas" />Gostaria de receber
+          outras incríveis oportunidades oferecidas pela Trybe?
+        </label>
+        <br />
+        <label for="condicao">
+          <input type="checkbox" name="" id="condicao" />Concordo que imagens
+          das minhas férias poderão ser usadas na divulgação de concursos
+          futuros.
+        </label>
+      </fieldset>
+      <label for="">
+        <button type="submit" id="enviar">Enviar</button>
+        <button id="limpar">Limpar Formulário</button>
+      </label>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

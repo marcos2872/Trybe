@@ -1,0 +1,27 @@
+
+h1 {
+  text-align: center;
+}
+
+#form {
+  width: 95%;
+  margin: 2.5%;
+  padding: 5px 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.section {
+margin-bottom: 2%;
+margin-top: 1%;
+}
+ 
+#botaoSalva {
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.section textarea {
+resize: none;
+
+}
